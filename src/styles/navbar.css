@@ -9,6 +9,7 @@
   vertical-align: middle;
   text-align: center;
   margin: 0px 20px;
+  background-color: transparent;
 }
 
 .nav-child {
@@ -21,6 +22,7 @@
 
 p {
   height: 30px;
+  color: white;
   border-radius: 30px;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
@@ -49,4 +51,42 @@ p:hover {
 
 .last-two:hover {
   background-color: rgba(255, 228, 196, 0.226);
+}
+.heading_outer {
+  margin: 190px 0px 0px 70px;
+  height: 400px;
+  position: relative;
+}
+.banner_heading {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.banner_text {
+  width: 600px;
+  height: 130px;
+  color: #222222;
+  font-size: 48px;
+  letter-spacing: 0.2em;
+  line-height: 52.8px;
+  font-weight: 600;
+}
+.i_am_out_of_variable_names {
+  background-color: black;
+  height: 27px;
+  font-weight: 600;
+  width: 150px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  padding: 2px;
+}
+
+.banner_outer img {
+  width: 100%;
+  z-index: -1;
+  height: 650px;
+  position: absolute;
+  top: 0;
 }
