@@ -5,7 +5,7 @@
   display: flex;
   align-content: middle;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 18px !important;
   vertical-align: middle;
   text-align: center;
   margin: 0px 20px;
@@ -33,7 +33,7 @@
 
 p {
   height: 30px;
-  color: white;
+  color: black;
   border-radius: 30px;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
@@ -44,11 +44,11 @@ p:hover {
   content: "";
   display: block;
   width: 9px;
-  border-bottom: 2px solid;
+  border-bottom: 2px solid white;
   margin: 0 auto;
 }
 .navchild1 {
-  flex-grow: 2;
+  flex-grow: 4;
 }
 .item-center {
   flex-grow: 2;
@@ -57,14 +57,14 @@ p:hover {
 }
 .last-two {
   border-radius: 30px;
-  flex-grow: 0.6;
+  flex-grow: 1;
 }
 
 .last-two:hover {
   background-color: rgba(255, 228, 196, 0.226);
 }
 .heading_outer {
-  margin: 190px 0px 0px 70px;
+  margin: 100px 0px 0px 70px;
   height: 400px;
   position: relative;
 }
@@ -72,12 +72,14 @@ p:hover {
   position: absolute;
   left: 0;
   top: 0;
+  width: 10px;
+  height: 10px;
 }
 .banner_text {
-  width: 600px;
+  width: 500px;
   height: 130px;
   color: #222222;
-  font-size: 48px;
+  font-size: 44px;
   letter-spacing: 0.2em;
   line-height: 52.8px;
   font-weight: 600;
@@ -90,7 +92,7 @@ p:hover {
   border-radius: 10px;
   color: white;
   text-align: center;
-  cursor: pointer;
+
   padding: 7px;
 }
 
