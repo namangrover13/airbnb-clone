@@ -3,12 +3,12 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import "../../styles/navbar.css";
 function index() {
   return (
-    <div>
+    <div className="head_outer">
       {" "}
       <div className="top_text">Get the latest on our COVID-19 response</div>
       <div className="nav-outer">
         <div className="nav-child navchild1 ">
-          <i className="fab fa-airbnb fa-4x"></i>{" "}
+          <i className="fab fa-airbnb fa-3x"></i>{" "}
         </div>
         <div className="nav-child navchild2 item-center">
           <p>Place to stay</p>

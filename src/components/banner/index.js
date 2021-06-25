@@ -1,10 +1,12 @@
 import React from "react";
 import "../../styles/navbar.css";
+import Search from "../search";
 function index() {
   return (
     <div className="banner_outer_outer">
+      <Search />
       <div className="banner_outer">
-        <img src="https://a0.muscache.com/im/pictures/d29cf6ea-a995-4af9-8ecf-f0caebed0ada.jpg?im_w=960"></img>
+        <img src="https://a0.muscache.com/im/pictures/ddc7f01f-3fb3-483c-87e6-701dad52c930.jpg?im_w=960"></img>
         <div className="heading_outer">
           <div className="banner_heading">
             <img
