@@ -4,6 +4,7 @@ import Explore from "./components/explore/explore";
 import Anywhere from "./components/anywhere/Anywhere";
 import Inspired from "./components/Inspired";
 import Host from "./components/host/Host"
+import Experience from "./components/experiences/Experience";
 function App() {
   return (
     //Import the components here
@@ -13,6 +14,7 @@ function App() {
       <Explore />
       <Anywhere />
       <Inspired />
+      <Experience />
       <Host />
     </div>
   );
