@@ -10,7 +10,11 @@ function index() {
             <div className="div_temp">
               <div className="search_inner_text">Location</div>
               <div className="search_inner_input">
-                <input type="text" placeholder="Where are you going?"></input>
+                <input
+                  type="text"
+                  placeholder="Where are you going?"
+                  className="banner_input"
+                ></input>
               </div>
             </div>
           </div>
@@ -18,7 +22,11 @@ function index() {
             <div className="div_temp">
               <div className="search_inner_text">Check in</div>
               <div className="search_inner_input">
-                <input type="text" placeholder="Add Dates"></input>
+                <input
+                  className="banner_input"
+                  type="text"
+                  placeholder="Add Dates"
+                ></input>
               </div>
             </div>
           </div>
@@ -26,7 +34,11 @@ function index() {
             <div className="div_temp">
               <div className="search_inner_text">Check out </div>
               <div className="search_inner_input">
-                <input type="text" placeholder="Add Dates"></input>
+                <input
+                  className="banner_input"
+                  type="text"
+                  placeholder="Add Dates"
+                ></input>
               </div>
             </div>
           </div>
@@ -36,7 +48,11 @@ function index() {
               <i class="fas fa-search fa-lg"></i>
             </div>
             <div className="search_inner_input">
-              <input type="text" placeholder="Add guests"></input>
+              <input
+                type="text"
+                className="banner_input"
+                placeholder="Add guests"
+              ></input>
             </div>
           </div>
         </div>

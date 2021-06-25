@@ -8,7 +8,7 @@
   margin-top: 18px !important;
   vertical-align: middle;
   text-align: center;
-  margin: 0px 20px;
+  margin: 30px 20px;
   background-color: transparent;
 }
 
@@ -43,8 +43,8 @@ p:hover {
 .item-center:hover:after {
   content: "";
   display: block;
-  width: 9px;
-  border-bottom: 2px solid white;
+  width: 13px;
+  border-bottom: 3px solid white;
   margin: 0 auto;
 }
 .navchild1 {
